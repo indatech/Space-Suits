@@ -1,7 +1,6 @@
 *{
    padding: 0;
-   margin: 0;
-   
+   margin: 0;   
   
 }
 body {
@@ -11,9 +10,7 @@ body {
    padding: 0;
    background-color: rgb(244, 244, 249, 0.5);
    color: #111111;
-   
    background-image: url("https://i.postimg.cc/7xgTqH6M/fondo-page.jpg");
-   
    font-weight: bold;
    
 }
@@ -29,15 +26,49 @@ nav {
    background-color: #34495e;
    padding: 0.98rem;
    text-align: center;
+   height: 60px;
 }
-nav a {
+/*nav a {
    color: #fff;
    margin: 0 1rem;
    text-decoration: none;
 }
 nav a:hover {
    text-decoration: underline;
+}*/
+
+.button-hover {
+   position: relative;
+   background: none;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+   padding: 10px 20px;
+   transition: transform 0.3s ease;
 }
+
+.button-hover .text {
+   display: inline-block;
+   transition: opacity 0.3s ease;
+   vertical-align: middle;
+}
+
+.button-hover .icon {
+   display: none;
+   width: 50px;
+   height: 50px;
+   vertical-align: middle;
+   border-radius: 50%;
+}
+
+.button-hover:hover .text {
+   opacity: 0; /* Ocultar el texto */
+}
+
+.button-hover:hover .icon {
+   display: inline-block; /* Mostrar el ícono */
+}
+
 section {
    padding: 2rem;
   
@@ -47,8 +78,6 @@ section a {
    color: #34495e;
    font-style: italic;
 }
-
-
 
 section a:hover{
    color: rgb(233, 225, 225);
