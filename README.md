@@ -64,5 +64,9 @@ Borra la rama especificada
 
 ###### Extraído de:
 https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd20a45b99a572dada168286be8146306eb88fdb
 
 
