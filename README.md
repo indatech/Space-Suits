@@ -22,7 +22,7 @@ Crea un nuevo repositorio local con el nombre especificado
 *$ git clone [url]*
 Descarga un proyecto y toda su historia de versión
 
-###EFECTUAR CAMBIOS
+### EFECTUAR CAMBIOS
 Revisa las ediciones y elabora una transacción de commit
 
 *$ git status*
@@ -43,7 +43,7 @@ Muestra las diferencias del archivo entre el área de espera y la última versi�
 *$ git commit -m "[descriptive message]"*
 Registra las instantáneas del archivo permanentemente en el historial de versión
 
-###CAMBIOS GRUPALES
+### CAMBIOS GRUPALES
 Nombra una serie de commits y combina esfuerzos ya culminados
 
 *$ git branch*
@@ -63,7 +63,7 @@ Borra la rama especificada
 
 
 ###### Extraído de:
-:fa-chain-broken: training@github.com 
+training@github.com 
 
 
 
