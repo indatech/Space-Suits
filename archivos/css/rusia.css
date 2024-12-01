@@ -40,15 +40,28 @@
     
  }
  section{
-    margin: 0 auto;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
     background-color: rgb(162, 182, 202, 0.8);
     text-align: justify;
+    border-radius: 10px;
+ }
+
+ h1{
+   color:rgb(172, 173, 173)
+
  }
  
+ h4{
+   font-style: italic;
+   font-weight: 500;
+   font-size:medium;
+   color:rgb(172, 173, 173)
+}
  
  #container section p{
     margin-left: 5px;
+    
     
  }
  
