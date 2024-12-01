@@ -24,6 +24,7 @@ header {
 }
 nav {
    background-color: #34495e;
+   color: white;
    padding: 0.98rem;
    text-align: center;
    height: 60px;
@@ -45,12 +46,15 @@ nav a:hover {
    cursor: pointer;
    padding: 10px 20px;
    transition: transform 0.3s ease;
+   font-weight: bold;
 }
 
 .button-hover .text {
    display: inline-block;
    transition: opacity 0.3s ease;
    vertical-align: middle;
+   color: white;
+   font-size: 20px;
 }
 
 .button-hover .icon {
