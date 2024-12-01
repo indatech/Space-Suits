@@ -63,7 +63,6 @@ Borra la rama especificada
 
 
 ###### Extraído de:
-training@github.com 
-
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
 
 
